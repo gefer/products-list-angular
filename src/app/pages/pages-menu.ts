@@ -12,25 +12,13 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'Auth',
-    icon: 'lock-outline',
+    title: 'Produtos',
+    icon: 'color-palette-outline',
     children: [
       {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
+        title: 'Listagem de Produtos',
+        link: '/pages/products/products-list',
+      }
     ],
   },
 ];
